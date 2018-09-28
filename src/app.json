@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/main",
     "pages/logs/main",
-    "pages/counter/main"
+    "pages/counter/main",
+    "pages/books/main",
+    "pages/me/main"
   ],
   "window": {
     "backgroundTextStyle": "light",

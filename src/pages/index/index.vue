@@ -18,7 +18,9 @@
       <input type="text" class="form-control" v-model="motto" placeholder="v-model" />
       <input type="text" class="form-control" v-model.lazy="motto" placeholder="v-model.lazy" />
     </form>
-    <a href="/pages/counter/main" class="counter">去往Vuex示例页面</a>
+    <a href="/pages/counter/main" class="counter">Vuex示例页面</a>
+    <a href="/pages/me/main" class="counter">个人中心</a>
+    <a href="/pages/books/main" class="counter">书列表</a>
   </div>
 </template>
 
