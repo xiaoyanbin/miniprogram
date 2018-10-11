@@ -1,4 +1,44 @@
 
-.card {
-  padding: 20rpx;
+.book-card.data-v-76f93ecc {
+  padding: 10rpx;
+  overflow: hidden;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  font-size: 28rpx;
+}
+.book-card .thumb.data-v-76f93ecc {
+  width: 180rpx;
+  height: 180rpx;
+  float: left;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.book-card .thumb .img.data-v-76f93ecc {
+  max-width: 100%;
+  max-height: 100%;
+}
+.book-card .detail.data-v-76f93ecc {
+  margin-left: 200rpx;
+}
+.book-card .detail .row.data-v-76f93ecc {
+  line-height: 40rpx;
+  margin-bottom: 6rpx;
+}
+.book-card .detail .right.data-v-76f93ecc {
+  float: right;
+}
+.book-card .detail .left.data-v-76f93ecc {
+  margin-right: 160rpx;
+}
+.rate {
+  position: relative;
+  display: inline-block;
+}
+.rate .hollow {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 0;
+  overflow: hidden;
 }

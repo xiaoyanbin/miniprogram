@@ -1,7 +1,33 @@
-<template name="314f8eaa">
-  <view class="_div data-v-866f1ad8">
-    <view class="_p data-v-866f1ad8 card">
-      {{text}}
+<import src="/components/Rate.vue.wxml" /><template name="4dd8f75b">
+  <navigator url="{{detailUrl}}" class="_a data-v-76f93ecc">
+    <view class="_div data-v-76f93ecc book-card">
+      <view class="_div data-v-76f93ecc thumb" catchtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="{{book.image}}" class="_img data-v-76f93ecc img" mode="aspectFit"></image>
+      </view>
+      <view class="_div data-v-76f93ecc detail">
+        <view class="_div data-v-76f93ecc row text-primary">
+          <view class="_div data-v-76f93ecc right">
+            {{book.rate}} <template data="{{...$root[$kk+'0'], $root}}" is="6b5cc54b"></template></view>
+          <view class="_div data-v-76f93ecc left">
+            {{book.title}}
+          </view>
+        </view>
+        <view class="_div data-v-76f93ecc row">
+          <view class="_div data-v-76f93ecc right text-primary"> 浏览量:{{book.count}}
+          </view>
+          <view class="_div data-v-76f93ecc left">
+            {{book.author}}
+          </view>
+        </view>
+        <view class="_div data-v-76f93ecc row">
+          <view class="_div data-v-76f93ecc right">
+            {{book.user_info.nickName}}
+          </view>
+          <view class="_div data-v-76f93ecc left">
+            {{book.publisher}}
+          </view>
+        </view>
+      </view>
     </view>
-  </view>
+  </navigator>
 </template>

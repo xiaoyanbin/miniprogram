@@ -1,29 +1,29 @@
 @import "../../common/vendor.wxss";
 
-.userinfo.data-v-6b277275 {
+.userinfo.data-v-5c5610ad {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.userinfo-avatar.data-v-6b277275 {
+.userinfo-avatar.data-v-5c5610ad {
   width: 128rpx;
   height: 128rpx;
   margin: 20rpx;
   border-radius: 50%;
 }
-.userinfo-nickname.data-v-6b277275 {
+.userinfo-nickname.data-v-5c5610ad {
   color: #aaa;
 }
-.usermotto.data-v-6b277275 {
+.usermotto.data-v-5c5610ad {
   margin-top: 300rpx;
 }
-.form-control.data-v-6b277275 {
+.form-control.data-v-5c5610ad {
   display: block;
   padding: 0 24rpx;
   margin-bottom: 10rpx;
   border: 2rpx solid #ccc;
 }
-.counter.data-v-6b277275 {
+.counter.data-v-5c5610ad {
   display: inline-block;
   margin: 20rpx auto;
   padding: 10rpx 20rpx;

@@ -1,22 +1,16 @@
 {
-	"description": "项目配置文件",
-	"packOptions": {
-		"ignore": []
-	},
+	"description": "项目配置文件。",
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.3.0",
-	"appid": "wxf1f70ed53df31af6",
-	"projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8Fmq",
-	"debugOptions": {
-		"hidedInDevtools": []
-	},
+	"libVersion": "1.9.94",
+	"appid": "wx2e74405674c01fba",
+	"projectname": "%E9%80%9F%E7%AE%97%E7%9B%92%E5%AD%90",
 	"isGameTourist": false,
 	"condition": {
 		"search": {

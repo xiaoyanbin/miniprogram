@@ -1,17 +1,15 @@
 require("common/manifest.js");
 require("common/vendor.js");
-global.webpackJsonp([4],[
-/* 0 */,
-/* 1 */,
-/* 2 */,
-/* 3 */
+global.webpackJsonp([9],{
+
+/***/ 48:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__App__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__App__ = __webpack_require__(50);
 
 
 
@@ -22,18 +20,18 @@ var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a(__WEBPACK_IMPORTED_MOD
 app.$mount();
 
 /***/ }),
-/* 4 */,
-/* 5 */
+
+/***/ 50:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_mpvue_loader_1_1_4_mpvue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_mpvue_loader_1_1_4_mpvue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__(52);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(6)
+  __webpack_require__(51)
 }
-var normalizeComponent = __webpack_require__(1)
+var normalizeComponent = __webpack_require__(0)
 /* script */
 
 /* template */
@@ -61,9 +59,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-4fd132a8", Component.options)
+    hotAPI.createRecord("data-v-24a27238", Component.options)
   } else {
-    hotAPI.reload("data-v-4fd132a8", Component.options)
+    hotAPI.reload("data-v-24a27238", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -74,16 +72,20 @@ if (false) {(function () {
 
 
 /***/ }),
-/* 6 */
+
+/***/ 51:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 7 */
+
+/***/ 52:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__config__ = __webpack_require__(18);
+
 
 /* harmony default export */ __webpack_exports__["a"] = ({
   created: function created() {
@@ -91,11 +93,18 @@ if (false) {(function () {
     var logs = wx.getStorageSync('logs') || [];
     logs.unshift(Date.now());
     wx.setStorageSync('logs', logs);
-
     console.log('app created and cache logs by setStorageSync');
+    // wx.request({
+    //   url:'http://'+config.serverHost+':'+config.port+'/weapp/demo',
+    //   success:function (res) {
+    //       console.log(res)
+    //   }
+
+    // })
   }
 });
 
 /***/ })
-],[3]);
+
+},[48]);
 //# sourceMappingURL=app.js.map
