@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/me/main",
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/counter/main",
+    "pages/books/main",
+    "pages/comments/main",
+    "pages/detail/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "haha",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/books/main",
+      "iconPath":"static/img/book.png",
+      "selectedIconPath":"static/img/book-active.png",
+      "text": "读书"
+    }, {
+      "pagePath": "pages/comments/main",
+      "iconPath":"static/img/todo.png",
+      "selectedIconPath":"static/img/todo-active.png",
+      "text": "评论"
+    }, {
+      "pagePath": "pages/me/main",
+      "iconPath":"static/img/me.png",
+      "selectedIconPath":"static/img/me-active.png",
+      "text": "我"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
