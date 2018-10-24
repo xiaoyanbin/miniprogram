@@ -40,6 +40,11 @@ koa-weapp-demo
 ├── README.md
 ├── app.js
 ├── controllers
+│   ├── addbook.js
+│   ├── addcomment.js
+│   ├── bookdetail.js
+│   ├── booklist.js
+│   ├── commentlist.js
 │   ├── index.js
 │   ├── login.js
 │   ├── message.js
