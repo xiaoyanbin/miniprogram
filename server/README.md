@@ -1,14 +1,9 @@
-# 腾讯云小程序解决方案 Demo - Node.js
+# 参照腾讯云小程序解决方案 Demo 上增加
 
-Node.js 版本 Wafer SDK 的服务端 Demo
+数据文集为server下的 cauth.sql 请导入到mysql
 
-## 下载源码
 
-你可以直接通过 git 将代码 clone 到本地，也可以点击[这里](https://github.com/tencentyun/wafer-node-server-demo/releases)下载。
 
-```bash
-git clone https://github.com/tencentyun/wafer-node-server-demo.git
-```
 
 ## 开始使用
 
@@ -45,6 +40,11 @@ koa-weapp-demo
 ├── README.md
 ├── app.js
 ├── controllers
+│   ├── addbook.js
+│   ├── addcomment.js
+│   ├── bookdetail.js
+│   ├── booklist.js
+│   ├── commentlist.js
 │   ├── index.js
 │   ├── login.js
 │   ├── message.js
